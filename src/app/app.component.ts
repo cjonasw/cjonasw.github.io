@@ -9,6 +9,13 @@ import json from './cv.json';
 export class AppComponent {
   cv: any = json;
 
+  sameCompanyAsNext(index: number, career: any[]) {
+    if (index < career.length - 1) {
+      return career[index].company.name === career[index + 1].company.name;
+    }
+    return false;
+  }
+
   constructor() {
   }
 

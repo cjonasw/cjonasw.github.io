@@ -1,0 +1,39 @@
+@mixin animation-increment-delay($delay: 0.1s){
+    &:nth-child(1) { animation-delay: 0s; }
+    &:nth-child(2) { animation-delay: 1 * $delay; }
+    &:nth-child(3) { animation-delay: 2 * $delay; }
+    &:nth-child(4) { animation-delay: 3 * $delay; }
+    &:nth-child(5) { animation-delay: 4 * $delay; }
+    &:nth-child(6) { animation-delay: 5 * $delay; }
+    &:nth-child(7) { animation-delay: 6 * $delay; }
+    &:nth-child(8) { animation-delay: 7 * $delay; }
+    &:nth-child(9) { animation-delay: 8 * $delay; }
+    &:nth-child(10) { animation-delay: 9 * $delay; }
+    &:nth-child(11) { animation-delay: 10 * $delay; }
+    &:nth-child(12) { animation-delay: 11 * $delay; }
+    &:nth-child(13) { animation-delay: 12 * $delay; }
+    &:nth-child(14) { animation-delay: 13 * $delay; }
+    &:nth-child(15) { animation-delay: 14 * $delay; }
+    &:nth-child(16) { animation-delay: 15 * $delay; }
+    &:nth-child(17) { animation-delay: 16 * $delay; }
+    &:nth-child(18) { animation-delay: 17 * $delay; }
+    &:nth-child(19) { animation-delay: 18 * $delay; }
+    &:nth-child(20) { animation-delay: 19 * $delay; }
+    &:nth-child(21) { animation-delay: 20 * $delay; }
+    &:nth-child(22) { animation-delay: 21 * $delay; }
+    &:nth-child(23) { animation-delay: 22 * $delay; }
+    &:nth-child(24) { animation-delay: 23 * $delay; }
+    &:nth-child(25) { animation-delay: 24 * $delay; }
+    &:nth-child(26) { animation-delay: 25 * $delay; }
+    &:nth-child(27) { animation-delay: 26 * $delay; }
+    &:nth-child(28) { animation-delay: 27 * $delay; }
+    &:nth-child(29) { animation-delay: 28 * $delay; }
+    &:nth-child(30) { animation-delay: 29 * $delay; }
+    &:nth-child(31) { animation-delay: 30 * $delay; }
+    &:nth-child(32) { animation-delay: 31 * $delay; }
+    &:nth-child(33) { animation-delay: 32 * $delay; }
+    &:nth-child(34) { animation-delay: 33 * $delay; }
+    &:nth-child(35) { animation-delay: 34 * $delay; }
+    &:nth-child(36) { animation-delay: 35 * $delay; }
+    &:nth-child(37) { animation-delay: 36 * $delay; }
+}

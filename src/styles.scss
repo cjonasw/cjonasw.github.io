@@ -1,4 +1,6 @@
 @import '~normalize.css';
+@import 'mixins';
+@import 'animations';
 
 @font-face {
   font-family: 'Oxygen';
@@ -33,10 +35,15 @@ a{
     border-radius: 20px;
     background-color: #eee;
     padding: 5px 10px;
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in forwards;
 
     @media print {
       padding: 2px 5px;      
     }
+
+
+    @include animation-increment-delay(0.03s);
   }
 }
 

@@ -6,7 +6,7 @@
 
 <div class="cv__body">
 <main class="experience">
-  <article *ngFor="let role of cv.career" class="experience__role">
+  <article *ngFor="let role of cv.career; let i = index" class="experience__role" [ngClass]="{ 'experience__role--same-company-as-next': sameCompanyAsNext(i, cv.career) }">
     <h1>{{role.title}}</h1>
     <div class="experience__role__company">
     <a [href]="role.company.link" target="_blank">{{role.company.name}}</a>

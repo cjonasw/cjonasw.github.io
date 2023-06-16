@@ -36,14 +36,29 @@
             "start": "2017-12-01",
             "end": "2022-02-01"
           },
+          "description": "In this role, I developed the core white label offering Angular library to streamline development and enable a scalable, maintainable and highly configurable casino library that complied with multiple jurisdictions. I led and mentored developers to deliver various projects on time and at a high quality. I also maintained and developed company documentation and code guidelines."
+      },
+      {
+          "title": "Senior Front End Developer",
+          "company": {
+              "name": "White Hat Gaming",
+              "link": "https://www.whitehatgaming.com/",
+              "summary": "Casino and Sportsbook Player Account Management solution.",
+              "location": "Remote",
+              "remote": true
+          },
+          "period": {
+            "start": "2016-03-01",
+            "end": "2017-12-01"
+          },
           "description": "During my first year at WHG, I modernised a legacy codebase and initiated the transition to a modern framework, while delivering business requirements and ensuring quality. I was promoted to Team Lead and hired a talented team of over 30 developers."
       },
       {
           "title": "Senior Front End Developer",
           "company": {
               "name": "British Car Auctions (BCA)",
-              "link": "https://www.whitehatgaming.com/",
-              "summary": "https://www.bca.co.uk/",
+              "link": "https://www.bca.co.uk/",
+              "summary": "",
               "location": "Farnham, UK"
           },
           "period": {
@@ -70,8 +85,8 @@
           "title": "Front End Developer",
           "company": {
               "name": "British Car Auctions (BCA)",
-              "link": "https://www.whitehatgaming.com/",
-              "summary": "https://www.bca.co.uk/",
+              "link": "https://www.bca.co.uk/",
+              "summary": "",
               "location": "Farnham, UK"
           },
           "period": {
@@ -84,8 +99,8 @@
           "title": "Junior Front End Developer",
           "company": {
               "name": "British Car Auctions (BCA)",
-              "link": "https://www.whitehatgaming.com/",
-              "summary": "https://www.bca.co.uk/",
+              "link": "https://www.bca.co.uk/",
+              "summary": "",
               "location": "Farnham, UK"
           },
           "period": {
@@ -98,8 +113,8 @@
           "title": "CMS Admin",
           "company": {
               "name": "British Car Auctions (BCA)",
-              "link": "https://www.whitehatgaming.com/",
-              "summary": "https://www.bca.co.uk/",
+              "link": "https://www.bca.co.uk/",
+              "summary": "",
               "location": "Farnham, UK"
           },
           "period": {

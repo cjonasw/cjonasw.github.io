@@ -1,3 +1,5 @@
+@import '../mixins';
+@import '../animations';
 
 h2{
     text-transform: capitalize;
@@ -95,28 +97,54 @@ h1{
 }
 
 .experience{
+    overflow: hidden;
+    counter-reset: line-number;
+
     &__role{
+        counter-increment: line-number;
         margin-bottom: 40px;
         padding: 10px 10px 26px 40px;
         position: relative;
         background: rgba(0,0,0,0.025);
+        animation: slideIn 0.4s ease-out forwards;
+        opacity: 0;
+        
+        @include animation-increment-delay;
+
+        &--same-company-as-next{
+            margin-bottom: 0;
+        }
 
         @media print {
             margin-bottom: 10px;
-            padding: 5px 5px 13px 40px;
+
+            &--same-company-as-next{
+                margin-bottom: 0;
+            }
+
+            padding: 5px 5px 10px 40px;
+
             h1{
                 font-size: 1.25em;
+                margin: 0.25em 0;
+            }
+
+            p{
+                margin: 0.5em 0 0 0;
             }
         }
 
         &__company{
             display: flex;
             flex-direction: column;
+            align-items: start;
             gap: 10px;
 
             @media print{
                 flex-direction: row;
-                gap: 20px;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 0 20px;
             }
         }
 
@@ -149,18 +177,5 @@ h1{
         &:first-child:before{
             background-color: #bbb;
         }
-    }
-}
-
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.01);
-    }
-    100% {
-        transform: scale(1);
     }
 }
