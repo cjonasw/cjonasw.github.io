@@ -97,7 +97,7 @@ h1{
 }
 
 .experience{
-    overflow: hidden;
+    // overflow: hidden;
     counter-reset: line-number;
 
     &__role{
@@ -108,6 +108,7 @@ h1{
         background: rgba(0,0,0,0.025);
         animation: slideIn 0.4s ease-out forwards;
         opacity: 0;
+        background-color: rgba(0,0,0,0.025);
         
         @include animation-increment-delay;
 
@@ -152,18 +153,18 @@ h1{
             margin-bottom: 0;
         }
 
-        // &:first-child:after{
-        //     content: '';
-        //     position: absolute;
-        //     left: 0;
-        //     top: 0;
-        //     width: 100%;
-        //     height: 100%;
-        //     border: 4px solid rgb(41, 86, 163);
-        //     transform: scale(1);
-        //     box-sizing: border-box;
-        //     animation: pulse 1s infinite;
-        // }
+        &:first-child:after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: 4px solid rgb(39, 164, 95);
+            transform: scale(1);
+            box-sizing: border-box;
+            animation: pulse 1s infinite;
+        }
 
         &:before{
             content: '';

@@ -16,6 +16,10 @@ export class AppComponent {
     return false;
   }
 
+  isDate(date: string) {
+    return !isNaN(Date.parse(date));
+  }
+
   constructor() {
   }
 

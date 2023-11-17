@@ -9,6 +9,22 @@
     },
     "career": [
       {
+        "title": "UI/UX Developer",
+        "company": {
+            "name": "Jaid",
+            "link": "https://www.jaid.io/",
+            "summary": "AI-powered platform that interprets and organizes communications and sends them to the right place for resolution.",
+            "location": "Remote",
+            "remote": true
+        },
+        "period": {
+          "start": "2023-07-16",
+          "end": "NOW"
+        },
+        "description": ""
+      },
+
+      {
         "title": "Senior Front End Developer (UI)",
         "company": {
             "name": "GameBench",
@@ -22,8 +38,7 @@
           "end": "2023-06-01"
         },
         "description": "During my time at Gamebench I designed and developed multiple major iterations of the Dashboard, a web-based tool that allows users to monitor and analyse the performance of their games. I elevated the accessibility of the app with various improvements including the addition of dark mode."
-      },
-      {
+      },      {
           "title": "Front End Technical Lead and Team Manager",
           "company": {
               "name": "White Hat Gaming",

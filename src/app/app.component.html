@@ -11,7 +11,7 @@
     <div class="experience__role__company">
     <a [href]="role.company.link" target="_blank">{{role.company.name}}</a>
     <time dateTime="{{role.period.start}}/{{role.period.end}}">
-      {{role.period.start | date:'MMMM YYYY'}} - {{role.period.end | date:'MMMM YYYY'}}
+      {{role.period.start | date:'MMMM YYYY'}} - {{isDate(role.period.end) ? (role.period.end | date:'MMMM YYYY') : 'Present'}}
     </time>
     <span class="location" [ngClass]="{ 'location--remote': role.company.remote }">{{role.company.location}}</span>
   </div>
