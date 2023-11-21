@@ -164,6 +164,7 @@ h1{
             transform: scale(1);
             box-sizing: border-box;
             animation: pulse 1s infinite;
+            pointer-events: none;
         }
 
         &:before{
