@@ -8,6 +8,7 @@ import json from './cv.json';
 })
 export class AppComponent {
   cv: any = json;
+  jsonView = false;
 
   sameCompanyAsNext(index: number, career: any[]) {
     if (index < career.length - 1) {
@@ -20,7 +21,21 @@ export class AppComponent {
     return !isNaN(Date.parse(date));
   }
 
+  downloadCV(){
+    window.print();
+  }
+
+  toggleJSON() {
+    this.jsonView = !this.jsonView;
+  }
+
   constructor() {
   }
 
+}
+
+
+enum CVFormatSupported {
+  PDF,
+  JSON
 }

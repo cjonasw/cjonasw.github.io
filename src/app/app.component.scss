@@ -1,48 +1,65 @@
 @import '../mixins';
 @import '../animations';
 
-h2{
+h2 {
     text-transform: capitalize;
 }
 
-.cv{
+.cv {
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
 
-    &__header{
-h1{
-    text-align: center;
-}
+    p{
+
+        @media print{
+            margin: 0;
+        }
     }
 
-    &__body{
+    &__header {
+        h1 {
+            text-align: center;
+
+            @media print{
+                margin: 0;
+            }
+        }
+    }
+
+    &__body {
         display: flex;
         flex-direction: row-reverse;
         justify-content: start;
         flex-wrap: wrap;
         gap: 20px;
 
-        main{
+        @media print {
+            display: flex !important;
+            gap: 10px;
+        }
+
+        main {
             flex: 1;
             min-width: 300px;
             padding-left: 0;
         }
 
-        aside{
+        aside {
             max-width: 300px;
+
             @media print {
                 max-width: 50mm;
             }
 
-            section{
+            section {
                 margin-bottom: 40px;
 
                 @media print {
                     margin-bottom: 10px;
                 }
 
-                h2{
+                h2 {
                     color: #666;
 
                     @media print {
@@ -54,14 +71,14 @@ h1{
     }
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.article{
-    &:not(:last-child){
+.article {
+    &:not(:last-child) {
         margin-bottom: 40px;
 
         @media print {
@@ -69,7 +86,7 @@ h1{
         }
     }
 
-    &__technologies{
+    &__technologies {
         margin-top: 10px;
         color: #888;
         font-style: italic;
@@ -79,14 +96,14 @@ h1{
         }
     }
 
-    
-    &__title{
-        @media print{
+
+    &__title {
+        @media print {
             display: none;
         }
     }
 
-    h1{
+    h1 {
         font-size: 1.25em;
 
         @media print {
@@ -96,52 +113,61 @@ h1{
     }
 }
 
-.experience{
+.experience {
     // overflow: hidden;
     counter-reset: line-number;
 
-    &__role{
+    &__role {
         counter-increment: line-number;
         margin-bottom: 40px;
         padding: 10px 10px 26px 40px;
         position: relative;
-        background: rgba(0,0,0,0.025);
+        background: rgba(0, 0, 0, 0.025);
         animation: slideIn 0.4s ease-out forwards;
         opacity: 0;
-        background-color: rgba(0,0,0,0.025);
-        
+        background-color: rgba(0, 0, 0, 0.025);
+
+
         @include animation-increment-delay;
 
-        &--same-company-as-next{
+        &--same-company-as-next {
             margin-bottom: 0;
         }
 
+        // Force position and visibility for print
         @media print {
-            margin-bottom: 10px;
+            opacity: 1 !important;
+            transform: translate(0, 0) !important;
+            margin-bottom: 2px;
+            padding: 5px 5px 10px 40px;
 
-            &--same-company-as-next{
+            &--same-company-as-next {
                 margin-bottom: 0;
+
+                + .experience__role h1 {
+                    font-size: 1em;
+                }
             }
 
             padding: 5px 5px 10px 40px;
 
-            h1{
+            h1 {
                 font-size: 1.25em;
                 margin: 0.25em 0;
             }
 
-            p{
+            p {
                 margin: 0.5em 0 0 0;
             }
         }
 
-        &__company{
+        &__company {
             display: flex;
             flex-direction: column;
             align-items: start;
             gap: 10px;
 
-            @media print{
+            @media print {
                 flex-direction: row;
                 flex-wrap: wrap;
                 align-items: center;
@@ -149,11 +175,11 @@ h1{
             }
         }
 
-        > :last-child{
+        > :last-child {
             margin-bottom: 0;
         }
 
-        &:first-child:after{
+        &:first-child:after {
             content: '';
             position: absolute;
             left: 0;
@@ -167,7 +193,7 @@ h1{
             pointer-events: none;
         }
 
-        &:before{
+        &:before {
             content: '';
             position: absolute;
             left: 0;
@@ -176,8 +202,31 @@ h1{
             height: 100%;
             background-color: #eee;
         }
-        &:first-child:before{
+
+        &:first-child:before {
             background-color: #bbb;
         }
+    }
+}
+
+.actions{
+    display: flex;
+    gap: 8px;
+
+    @media print {
+        display: none;
+    }
+
+}
+
+.hide{
+    @media screen {
+        display: none;
+    }
+}
+
+.hideFromPrint{
+    @media print {
+        display: none !important;
     }
 }

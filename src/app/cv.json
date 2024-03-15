@@ -21,7 +21,7 @@
           "start": "2023-07-16",
           "end": "NOW"
         },
-        "description": ""
+        "description": "At Jaid, my work played a crucial role in enhancing the Jaid product, making it more robust and user-friendly. It was an exciting journey, shaping the way our product interacted with users. I took pride in designing and implementing the foundation for new features, laying the groundwork for scalability and maintainability."
       },
 
       {
@@ -37,7 +37,7 @@
           "start": "2022-04-01",
           "end": "2023-06-01"
         },
-        "description": "During my time at Gamebench I designed and developed multiple major iterations of the Dashboard, a web-based tool that allows users to monitor and analyse the performance of their games. I elevated the accessibility of the app with various improvements including the addition of dark mode."
+        "description": "During my tenure at Gamebench, I designed and developed multiple major iterations of the Dashboard. This web-based tool enables users to monitor and analyse the performance of their games. I enhanced the app’s accessibility with various improvements, including the introduction of a dark mode."
       },      {
           "title": "Front End Technical Lead and Team Manager",
           "company": {
@@ -51,7 +51,7 @@
             "start": "2017-12-01",
             "end": "2022-02-01"
           },
-          "description": "In this role, I developed the core white label offering Angular library to streamline development and enable a scalable, maintainable and highly configurable casino library that complied with multiple jurisdictions. I led and mentored developers to deliver various projects on time and at a high quality. I also maintained and developed company documentation and code guidelines."
+          "description": "In this role, I hired, led, and mentored a talented team of 30 developers, ensuring the timely delivery of various projects with high quality. Additionally, I was responsible for maintaining and developing the company’s codebase, as well as its documentation and code guidelines."
       },
       {
           "title": "Senior Front End Developer",
@@ -66,7 +66,7 @@
             "start": "2016-03-01",
             "end": "2017-12-01"
           },
-          "description": "During my first year at WHG, I modernised a legacy codebase and initiated the transition to a modern framework, while delivering business requirements and ensuring quality. I was promoted to Team Lead and hired a talented team of over 30 developers."
+          "description": "During my first year at WHG, I modernised a legacy codebase, initiating the transition to a modern framework. This was accomplished while simultaneously delivering on business requirements and ensuring quality. As the sole Front-End (FE) resource, I developed the core white-label Angular library offering. This streamlined development and enabled a scalable, maintainable, and highly configurable casino library that complied with multiple jurisdictions. This groundwork laid the foundation for a system that would power over 40 casinos, a system that remains in use today."
       },
       {
           "title": "Senior Front End Developer",
@@ -158,7 +158,6 @@
     "C#",
     "PHP",
     "Unity",
-    "Unreal Engine",
     "Angular.js",
     "SVG",
     "Three.js/WebGL",
@@ -193,8 +192,9 @@
   ],
   "applications": [
     "Figma",
-    "Illustrator",
-    "Photoshop",
+    "Sketch",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
     "VS Code"
   ],
   "interests": [

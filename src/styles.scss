@@ -7,18 +7,18 @@
   src: url('/src/assets/fonts/Oxygen-Regular.ttf');
 }
 
-body{
-    font-family: 'Oxygen', sans-serif;
-    line-height: 1.5;
-    color: #333;
+body {
+  font-family: 'Oxygen', sans-serif;
+  line-height: 1.5;
+  color: #333;
 }
 
-a{
+a {
   color: #137676;
   text-decoration: none;
 }
 
-.pill-list{
+.pill-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -27,7 +27,7 @@ a{
   gap: 8px;
 
   @media print {
-    gap: 2px;     
+    gap: 2px;
   }
 
   li {
@@ -38,16 +38,18 @@ a{
     opacity: 0;
     animation: fadeIn 0.4s ease-in forwards;
 
+    // Force position and visibility for print
     @media print {
-      padding: 2px 5px;      
-    }
+      padding: 2px 5px;
+      opacity: 1 !important;
 
+    }
 
     @include animation-increment-delay(0.03s);
   }
 }
 
-.tag-list{
+.tag-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -55,31 +57,51 @@ a{
   li {
     display: inline;
 
-    &:not(:last-child):after{
+    &:not(:last-child):after {
       content: ', ';
     }
   }
 }
 
-h1{
-  article &{
-    font-size: 1.5em;
+h1 {
+  article & {
+    font-size: 1.2em;
   }
 }
 
-time, .location{
+time,
+.location {
   color: #666;
   font-style: italic;
 }
 
 @page {
-    size: A4;
-    margin: 0;
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+    font-size: 9pt;
   }
-  @media print {
-    html, body {
-      width: 210mm;
-      height: 297mm;
-      font-size: 9pt;
-    }
+}
+
+button{
+  padding: 8px 12px;
+  background: #ccc;
+  border: 0;
+  border-radius: 3px;
+
+  &.active{
+    background: #137676;
+    color: white;
   }
+}
+
+pre{
+  white-space: pre-wrap;
+}

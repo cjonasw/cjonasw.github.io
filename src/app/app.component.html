@@ -1,57 +1,69 @@
 <div class="cv">
-<header class="cv__header">
-  <h1>{{cv.name}}</h1>
-  <p>{{cv.summary}}</p>
-</header>
+  <header class="cv__header">
+    <div class="actions">
+      <button (click)="downloadCV()">Download</button>
+      <button (click)="toggleJSON()" [ngClass]="{'active': jsonView }">
+        Toggle JSON
+      </button>
+    </div>
+    <h1 [ngClass]="{'hide': jsonView }">{{cv.name}}</h1>
+  </header>
 
-<div class="cv__body">
-<main class="experience">
-  <article *ngFor="let role of cv.career; let i = index" class="experience__role" [ngClass]="{ 'experience__role--same-company-as-next': sameCompanyAsNext(i, cv.career) }">
-    <h1>{{role.title}}</h1>
-    <div class="experience__role__company">
-    <a [href]="role.company.link" target="_blank">{{role.company.name}}</a>
-    <time dateTime="{{role.period.start}}/{{role.period.end}}">
-      {{role.period.start | date:'MMMM YYYY'}} - {{isDate(role.period.end) ? (role.period.end | date:'MMMM YYYY') : 'Present'}}
-    </time>
-    <span class="location" [ngClass]="{ 'location--remote': role.company.remote }">{{role.company.location}}</span>
-  </div>
-    <p *ngIf="role.description">{{role.description}}</p>
-  </article>
-</main>
+    <pre class="hideFromPrint" [ngClass]="{'hide': !jsonView }"><code>{{cv | json}}</code></pre>
 
-<aside>
-  <section>
-    <h2>Contacts</h2>
-    <address class="contacts">
-      <a href="tel:{{cv.contacts.phone}}">{{cv.contacts.phone}}</a>
-      <a href="mailto:{{cv.contacts.email}}">{{cv.contacts.email}}</a>
-      <a href="https://{{cv.contacts.website}}">{{cv.contacts.website}}</a>
-      <span>{{cv.contacts.location}}</span>
-    </address>
-  </section>
-  <section *ngFor="let listName of ['technologies']">
-    <h2>{{listName}}</h2>
-    <ul class="pill-list">
-      <li *ngFor="let item of cv[listName]">{{item}}</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Articles</h2>
-    <article *ngFor="let article of cv.articles" class="article">
-      <h1>
-      <a [href]="article.link" target="_blank">{{article.website}}</a>
-      </h1>
-      <span class="article__title">{{article.title}}</span>
-      <ul class="tag-list article__technologies">
-        <li *ngFor="let technology of article.technologies">{{technology}}</li>
-      </ul>
-    </article>
-  </section>
-  <section *ngFor="let listName of ['applications', 'interests']">
-    <h2>{{listName}}</h2>
-    <ul class="pill-list">
-      <li *ngFor="let item of cv[listName]">{{item}}</li>
-    </ul>
-  </section>
-</aside></div>
+    <div class="cv__body" [ngClass]="{'hide': jsonView }">
+      <p>{{cv.summary}}</p>
+      <main class="experience">
+        <article *ngFor="let role of cv.career; let i = index" class="experience__role"
+          [ngClass]="{ 'experience__role--same-company-as-next': sameCompanyAsNext(i, cv.career) }">
+          <h1>{{role.title}}</h1>
+          <div class="experience__role__company">
+            <a [href]="role.company.link" target="_blank">{{role.company.name}}</a>
+            <time dateTime="{{role.period.start}}/{{role.period.end}}">
+              {{role.period.start | date:'MMMM YYYY'}} - {{isDate(role.period.end) ? (role.period.end | date:'MMMM
+              YYYY') : 'Present'}}
+            </time>
+            <span class="location"
+              [ngClass]="{ 'location--remote': role.company.remote }">{{role.company.location}}</span>
+          </div>
+          <p *ngIf="role.description">{{role.description}}</p>
+        </article>
+      </main>
+
+      <aside>
+        <section>
+          <h2>Contacts</h2>
+          <address class="contacts">
+            <a href="tel:{{cv.contacts.phone}}">{{cv.contacts.phone}}</a>
+            <a href="mailto:{{cv.contacts.email}}">{{cv.contacts.email}}</a>
+            <a href="https://{{cv.contacts.website}}">{{cv.contacts.website}}</a>
+            <span>{{cv.contacts.location}}</span>
+          </address>
+        </section>
+        <section *ngFor="let listName of ['technologies','applications']">
+          <h2>{{listName}}</h2>
+          <ul class="pill-list">
+            <li *ngFor="let item of cv[listName]">{{item}}</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Articles</h2>
+          <article *ngFor="let article of cv.articles" class="article">
+            <h1>
+              <a [href]="article.link" target="_blank">{{article.website}}</a>
+            </h1>
+            <span class="article__title">{{article.title}}</span>
+            <ul class="tag-list article__technologies">
+              <li *ngFor="let technology of article.technologies">{{technology}}</li>
+            </ul>
+          </article>
+        </section>
+        <section *ngFor="let listName of ['interests']">
+          <h2>{{listName}}</h2>
+          <ul class="pill-list">
+            <li *ngFor="let item of cv[listName]">{{item}}</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
 </div>
