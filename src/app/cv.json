@@ -1,144 +1,158 @@
 {
-    "name": "Charlie Walter",
-    "summary": "With over a decade of experience in Front End Development, I pride myself on impressive, accessible and cohesive UI and the maintainable, performant and scalable code that I produce. I am passionate about UX and enjoy the part my job plays between business logic and creativity. I lead and manage teams to deliver high-quality products that go beyond expectations. I have excellent communication and collaboration skills and encourage feedback, learning and growth in both product and people. I am loyal and committed to the companies I work for and welcome long-term projects that challenge and grow me.",
-    "contacts": {
-      "phone": "07737334760",
-      "email": "charliejwalter@gmail.com",
-      "website": "cjonasw.github.io",
-      "location": "Guildford, UK"
+  "name": "Charlie Walter",
+  "summary": "With over a decade of experience in Front End Development, I pride myself on impressive, accessible and cohesive UI and the maintainable, performant and scalable code that I produce. I am passionate about UX and enjoy the part my job plays between business logic and creativity. I lead and manage teams to deliver high-quality products that go beyond expectations. I have excellent communication and collaboration skills and encourage feedback, learning and growth in both product and people. I am loyal and committed to the companies I work for and welcome long-term projects that challenge and grow me.",
+  "contacts": {
+    "phone": "07737334760",
+    "email": "charliejwalter@gmail.com",
+    "website": "cjonasw.github.io",
+    "location": "Guildford, UK"
+  },
+  "career": [
+    {
+      "title": "Senior Angular Developer (UI/UX)",
+      "company": {
+        "name": "Blackdot Solutions",
+        "link": "https://blackdotsolutions.com/",
+        "summary": "Blackdot is the UK technology company behind Videris, the most powerful investigations software for fighting serious, organised and economic crimes.",
+        "location": "Remote",
+        "remote": true
+      },
+      "period": {
+        "start": "2024-07-15",
+        "end": "NOW"
+      },
+      "description": "At Blackdot Solutions, I focus on developing new features and actively participate in UX discussions, always prioritizing a user-friendly interface. It's rewarding to contribute to a robust UX that enhances how users interact with our solutions."
     },
-    "career": [
-      {
-        "title": "UI/UX Developer",
-        "company": {
-            "name": "Jaid",
-            "link": "https://www.jaid.io/",
-            "summary": "AI-powered platform that interprets and organizes communications and sends them to the right place for resolution.",
-            "location": "Remote",
-            "remote": true
-        },
-        "period": {
-          "start": "2023-07-16",
-          "end": "NOW"
-        },
-        "description": "At Jaid, my work played a crucial role in enhancing the Jaid product, making it more robust and user-friendly. It was an exciting journey, shaping the way our product interacted with users. I took pride in designing and implementing the foundation for new features, laying the groundwork for scalability and maintainability."
+    {
+      "title": "UI/UX Developer",
+      "company": {
+        "name": "Jaid",
+        "link": "https://www.jaid.io/",
+        "summary": "AI-powered platform that interprets and organizes communications and sends them to the right place for resolution.",
+        "location": "Remote",
+        "remote": true
       },
-
-      {
-        "title": "Senior Front End Developer (UI)",
-        "company": {
-            "name": "GameBench",
-            "link": "https://www.gamebench.net/",
-            "summary": "Mobile game performance monitoring and analytics tool.",
-            "location": "Remote",
-            "remote": true
-        },
-        "period": {
-          "start": "2022-04-01",
-          "end": "2023-06-01"
-        },
-        "description": "During my tenure at Gamebench, I designed and developed multiple major iterations of the Dashboard. This web-based tool enables users to monitor and analyse the performance of their games. I enhanced the app’s accessibility with various improvements, including the introduction of a dark mode."
-      },      {
-          "title": "Front End Technical Lead and Team Manager",
-          "company": {
-              "name": "White Hat Gaming",
-              "link": "https://www.whitehatgaming.com/",
-              "summary": "Casino and Sportsbook Player Account Management solution.",
-              "location": "Remote",
-              "remote": true
-          },
-          "period": {
-            "start": "2017-12-01",
-            "end": "2022-02-01"
-          },
-          "description": "In this role, I hired, led, and mentored a talented team of 30 developers, ensuring the timely delivery of various projects with high quality. Additionally, I was responsible for maintaining and developing the company’s codebase, as well as its documentation and code guidelines."
+      "period": {
+        "start": "2023-07-16",
+        "end": "2024-05-01"
       },
-      {
-          "title": "Senior Front End Developer",
-          "company": {
-              "name": "White Hat Gaming",
-              "link": "https://www.whitehatgaming.com/",
-              "summary": "Casino and Sportsbook Player Account Management solution.",
-              "location": "Remote",
-              "remote": true
-          },
-          "period": {
-            "start": "2016-03-01",
-            "end": "2017-12-01"
-          },
-          "description": "During my first year at WHG, I modernised a legacy codebase, initiating the transition to a modern framework. This was accomplished while simultaneously delivering on business requirements and ensuring quality. As the sole Front-End (FE) resource, I developed the core white-label Angular library offering. This streamlined development and enabled a scalable, maintainable, and highly configurable casino library that complied with multiple jurisdictions. This groundwork laid the foundation for a system that would power over 40 casinos, a system that remains in use today."
+      "description": "At Jaid, my work played a crucial role in enhancing the Jaid product, making it more robust and user-friendly. It was an exciting journey, shaping the way our product interacted with users. I took pride in designing and implementing the foundation for new features, laying the groundwork for scalability and maintainability."
+    },
+    {
+      "title": "Senior Front End Developer (UI)",
+      "company": {
+        "name": "GameBench",
+        "link": "https://www.gamebench.net/",
+        "summary": "Mobile game performance monitoring and analytics tool.",
+        "location": "Remote",
+        "remote": true
       },
-      {
-          "title": "Senior Front End Developer",
-          "company": {
-              "name": "British Car Auctions (BCA)",
-              "link": "https://www.bca.co.uk/",
-              "summary": "",
-              "location": "Farnham, UK"
-          },
-          "period": {
-            "start": "2015-06-01",
-            "end": "2016-03-01"
-          },
-          "description": ""
+      "period": {
+        "start": "2022-04-01",
+        "end": "2023-06-01"
       },
-      {
-          "title": "Web Application Developer",
-          "company": {
-              "name": "Bohemia Interactive Simulations (BISim)",
-              "link": "https://www.bisimulations.com/",
-              "summary": "",
-              "location": "Farnborough, UK"
-          },
-          "period": {
-            "start": "2014-06-01",
-            "end": "2015-06-01"
-          },
-          "description": ""
+      "description": "During my tenure at Gamebench, I designed and developed multiple major iterations of the Dashboard. This web-based tool enables users to monitor and analyse the performance of their games. I enhanced the app’s accessibility with various improvements, including the introduction of a dark mode."
+    },
+    {
+      "title": "Front End Technical Lead and Team Manager",
+      "company": {
+        "name": "White Hat Gaming",
+        "link": "https://www.whitehatgaming.com/",
+        "summary": "Casino and Sportsbook Player Account Management solution.",
+        "location": "Remote",
+        "remote": true
       },
-      {
-          "title": "Front End Developer",
-          "company": {
-              "name": "British Car Auctions (BCA)",
-              "link": "https://www.bca.co.uk/",
-              "summary": "",
-              "location": "Farnham, UK"
-          },
-          "period": {
-            "start": "2013-12-01",
-            "end": "2014-07-01"
-          },
-          "description": ""
+      "period": {
+        "start": "2017-12-01",
+        "end": "2022-02-01"
       },
-      {
-          "title": "Junior Front End Developer",
-          "company": {
-              "name": "British Car Auctions (BCA)",
-              "link": "https://www.bca.co.uk/",
-              "summary": "",
-              "location": "Farnham, UK"
-          },
-          "period": {
-            "start": "2012-10-01",
-            "end": "2013-12-01"
-          },
-          "description": ""
+      "description": "In this role, I hired, led, and mentored a talented team of 30 developers, ensuring the timely delivery of various projects with high quality. Additionally, I was responsible for maintaining and developing the company’s codebase, as well as its documentation and code guidelines."
+    },
+    {
+      "title": "Senior Front End Developer",
+      "company": {
+        "name": "White Hat Gaming",
+        "link": "https://www.whitehatgaming.com/",
+        "summary": "Casino and Sportsbook Player Account Management solution.",
+        "location": "Remote",
+        "remote": true
       },
-      {
-          "title": "CMS Admin",
-          "company": {
-              "name": "British Car Auctions (BCA)",
-              "link": "https://www.bca.co.uk/",
-              "summary": "",
-              "location": "Farnham, UK"
-          },
-          "period": {
-            "start": "2012-04-01",
-            "end": "2012-09-01"
-          },
-          "description": ""
-      }
-
+      "period": {
+        "start": "2016-03-01",
+        "end": "2017-12-01"
+      },
+      "description": "During my first year at WHG, I modernised a legacy codebase, initiating the transition to a modern framework. This was accomplished while simultaneously delivering on business requirements and ensuring quality. As the sole Front-End (FE) resource, I developed the core white-label Angular library offering. This streamlined development and enabled a scalable, maintainable, and highly configurable casino library that complied with multiple jurisdictions. This groundwork laid the foundation for a system that would power over 40 casinos, a system that remains in use today."
+    },
+    {
+      "title": "Senior Front End Developer",
+      "company": {
+        "name": "British Car Auctions (BCA)",
+        "link": "https://www.bca.co.uk/",
+        "summary": "",
+        "location": "Farnham, UK"
+      },
+      "period": {
+        "start": "2015-06-01",
+        "end": "2016-03-01"
+      },
+      "description": ""
+    },
+    {
+      "title": "Web Application Developer",
+      "company": {
+        "name": "Bohemia Interactive Simulations (BISim)",
+        "link": "https://www.bisimulations.com/",
+        "summary": "",
+        "location": "Farnborough, UK"
+      },
+      "period": {
+        "start": "2014-06-01",
+        "end": "2015-06-01"
+      },
+      "description": ""
+    },
+    {
+      "title": "Front End Developer",
+      "company": {
+        "name": "British Car Auctions (BCA)",
+        "link": "https://www.bca.co.uk/",
+        "summary": "",
+        "location": "Farnham, UK"
+      },
+      "period": {
+        "start": "2013-12-01",
+        "end": "2014-07-01"
+      },
+      "description": ""
+    },
+    {
+      "title": "Junior Front End Developer",
+      "company": {
+        "name": "British Car Auctions (BCA)",
+        "link": "https://www.bca.co.uk/",
+        "summary": "",
+        "location": "Farnham, UK"
+      },
+      "period": {
+        "start": "2012-10-01",
+        "end": "2013-12-01"
+      },
+      "description": ""
+    },
+    {
+      "title": "CMS Admin",
+      "company": {
+        "name": "British Car Auctions (BCA)",
+        "link": "https://www.bca.co.uk/",
+        "summary": "",
+        "location": "Farnham, UK"
+      },
+      "period": {
+        "start": "2012-04-01",
+        "end": "2012-09-01"
+      },
+      "description": ""
+    }
   ],
   "technologies": [
     "Angular",
@@ -165,30 +179,43 @@
     "Canvas API"
   ],
   "articles": [
-  {
-    "title": "Using The Gamepad API In Web Games",
-    "website": "Smashing Magazine",
-    "technologies": ["Gamepad API", "Canvas API"],
-    "link": "https://www.smashingmagazine.com/2015/11/gamepad-api-in-web-games/"
-  },
-  {
-    "title": "How to Make a Smartphone Controlled 3D Web Game",
-    "website": "CSS Tricks",
-    "technologies": ["Three.js", "Socket.io", "QR", "devicemotion"],
-    "link": "https://css-tricks.com/how-to-make-a-smartphone-controlled-3d-web-game/"
-  },
-  {
-    "title": "Using Templating Engines to Streamline WordPress Theme Development",
-    "website": "CSS Tricks",
-    "technologies": ["Wordpress"],
-    "link": "https://css-tricks.com/templating-languages-and-wordpress/"
-  },
-  {
-    "title": "Building a 3D Multiplayer Game with Pusher",
-    "website": "Pusher",
-    "technologies": ["Three.js", "WebSockets"],
-    "link": "https://blog.pusher.com/building-3d-multiplayer-game-pusher/"
-  }
+    {
+      "title": "Using The Gamepad API In Web Games",
+      "website": "Smashing Magazine",
+      "technologies": [
+        "Gamepad API",
+        "Canvas API"
+      ],
+      "link": "https://www.smashingmagazine.com/2015/11/gamepad-api-in-web-games/"
+    },
+    {
+      "title": "How to Make a Smartphone Controlled 3D Web Game",
+      "website": "CSS Tricks",
+      "technologies": [
+        "Three.js",
+        "Socket.io",
+        "QR",
+        "devicemotion"
+      ],
+      "link": "https://css-tricks.com/how-to-make-a-smartphone-controlled-3d-web-game/"
+    },
+    {
+      "title": "Using Templating Engines to Streamline WordPress Theme Development",
+      "website": "CSS Tricks",
+      "technologies": [
+        "Wordpress"
+      ],
+      "link": "https://css-tricks.com/templating-languages-and-wordpress/"
+    },
+    {
+      "title": "Building a 3D Multiplayer Game with Pusher",
+      "website": "Pusher",
+      "technologies": [
+        "Three.js",
+        "WebSockets"
+      ],
+      "link": "https://blog.pusher.com/building-3d-multiplayer-game-pusher/"
+    }
   ],
   "applications": [
     "Figma",
@@ -199,7 +226,6 @@
   ],
   "interests": [
     "Music",
-    "Coffee",
     "Swimming"
   ]
 }
