@@ -1,6 +1,6 @@
 {
   "name": "Charlie Walter",
-  "summary": "With over a decade of experience in Front End Development, I pride myself on impressive, accessible and cohesive UI and the maintainable, performant and scalable code that I produce. I am passionate about UX and enjoy the part my job plays between business logic and creativity. I lead and manage teams to deliver high-quality products that go beyond expectations. I have excellent communication and collaboration skills and encourage feedback, learning and growth in both product and people. I am loyal and committed to the companies I work for and welcome long-term projects that challenge and grow me.",
+  "summary": "I have over a decade of experience in Front End Development, delivering accessible, cohesive UI backed by maintainable, performant code. I enjoy working at the intersection of UX, business logic and creativity. I've led and managed teams to deliver high-quality products and I adapt quickly to new teams and codebases, making an impact from day one.",
   "contacts": {
     "phone": "07737334760",
     "email": "charliejwalter@gmail.com",
@@ -169,14 +169,14 @@
     "Angular Material",
     "HTML5",
     "CSS3",
-    "C#",
-    "PHP",
-    "Unity",
     "Angular.js",
     "SVG",
     "Three.js/WebGL",
     "Socket.io/WebSockets",
-    "Canvas API"
+    "Canvas API",
+    "GitHub Copilot",
+    "Claude",
+    "ChatGPT"
   ],
   "articles": [
     {
@@ -222,7 +222,10 @@
     "Sketch",
     "Adobe Illustrator",
     "Adobe Photoshop",
-    "VS Code"
+    "VS Code",
+    "GitHub Copilot",
+    "Claude",
+    "ChatGPT"
   ],
   "interests": [
     "Music",
