@@ -1,6 +1,6 @@
 {
   "name": "Charlie Walter",
-  "summary": "I have over a decade of experience in Front End Development, delivering accessible, cohesive UI backed by maintainable, performant code. I enjoy working at the intersection of UX, business logic and creativity. I've led and managed teams to deliver high-quality products and I adapt quickly to new teams and codebases, making an impact from day one.",
+  "summary": "I have 15 years’ professional experience in front-end software engineering and UI/UX design. I thrive on the design and craft of building great software, creating intuitive, beautiful interfaces that work seamlessly for users. I am hardworking, highly adaptable, and love working at the intersection of modern web technologies, user experience, and clean code. I thoughtfully integrate AI tooling into my day-to-day workflow to boost efficiency, backed by strong engineering discipline and UI design intuition. Having led engineering teams in the past, I am seeking my next hands-on role as a Senior Front-End / UI-UX Developer where I can focus on crafting exceptional user experiences and maintainable software.",
   "contacts": {
     "phone": "07737334760",
     "email": "charliejwalter@gmail.com",
@@ -21,7 +21,7 @@
         "start": "2024-07-15",
         "end": "NOW"
       },
-      "description": "At Blackdot Solutions, I focus on developing new features and actively participate in UX discussions, always prioritizing a user-friendly interface. It's rewarding to contribute to a robust UX that enhances how users interact with our solutions."
+      "description": "At Blackdot Solutions, I focus on developing new features and actively participate in UX discussions, always prioritizing a user-friendly interface. I write unit tests and expand E2E test coverage to ensure feature reliability and maintain code quality."
     },
     {
       "title": "UI/UX Developer",
@@ -81,7 +81,8 @@
         "start": "2016-03-01",
         "end": "2017-12-01"
       },
-      "description": "During my first year at WHG, I modernised a legacy codebase, initiating the transition to a modern framework. This was accomplished while simultaneously delivering on business requirements and ensuring quality. As the sole Front-End (FE) resource, I developed the core white-label Angular library offering. This streamlined development and enabled a scalable, maintainable, and highly configurable casino library that complied with multiple jurisdictions. This groundwork laid the foundation for a system that would power over 40 casinos, a system that remains in use today."
+      "description": "As the sole Front-End resource during my first year, I modernised a legacy codebase and developed WHG's white-label Angular library, establishing a scalable, multi-jurisdictional system that powers over 40 casinos today.",
+      "compact": true
     },
     {
       "title": "Senior Front End Developer",
@@ -95,7 +96,8 @@
         "start": "2015-06-01",
         "end": "2016-03-01"
       },
-      "description": ""
+      "description": "",
+      "compact": true
     },
     {
       "title": "Web Application Developer",
@@ -109,7 +111,8 @@
         "start": "2014-06-01",
         "end": "2015-06-01"
       },
-      "description": ""
+      "description": "",
+      "compact": true
     },
     {
       "title": "Front End Developer",
@@ -123,7 +126,8 @@
         "start": "2013-12-01",
         "end": "2014-07-01"
       },
-      "description": ""
+      "description": "",
+      "compact": true
     },
     {
       "title": "Junior Front End Developer",
@@ -137,7 +141,8 @@
         "start": "2012-10-01",
         "end": "2013-12-01"
       },
-      "description": ""
+      "description": "",
+      "compact": true
     },
     {
       "title": "CMS Admin",
@@ -151,7 +156,8 @@
         "start": "2012-04-01",
         "end": "2012-09-01"
       },
-      "description": ""
+      "description": "",
+      "compact": true
     }
   ],
   "technologies": [
@@ -182,38 +188,25 @@
     {
       "title": "Using The Gamepad API In Web Games",
       "website": "Smashing Magazine",
-      "technologies": [
-        "Gamepad API",
-        "Canvas API"
-      ],
+      "technologies": ["Gamepad API", "Canvas API"],
       "link": "https://www.smashingmagazine.com/2015/11/gamepad-api-in-web-games/"
     },
     {
       "title": "How to Make a Smartphone Controlled 3D Web Game",
       "website": "CSS Tricks",
-      "technologies": [
-        "Three.js",
-        "Socket.io",
-        "QR",
-        "devicemotion"
-      ],
+      "technologies": ["Three.js", "Socket.io", "QR", "devicemotion"],
       "link": "https://css-tricks.com/how-to-make-a-smartphone-controlled-3d-web-game/"
     },
     {
       "title": "Using Templating Engines to Streamline WordPress Theme Development",
       "website": "CSS Tricks",
-      "technologies": [
-        "Wordpress"
-      ],
+      "technologies": ["Wordpress"],
       "link": "https://css-tricks.com/templating-languages-and-wordpress/"
     },
     {
       "title": "Building a 3D Multiplayer Game with Pusher",
       "website": "Pusher",
-      "technologies": [
-        "Three.js",
-        "WebSockets"
-      ],
+      "technologies": ["Three.js", "WebSockets"],
       "link": "https://blog.pusher.com/building-3d-multiplayer-game-pusher/"
     }
   ],
@@ -227,8 +220,5 @@
     "Claude",
     "ChatGPT"
   ],
-  "interests": [
-    "Music",
-    "Swimming"
-  ]
+  "interests": ["Music", "Swimming"]
 }
