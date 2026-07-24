@@ -137,8 +137,25 @@ h2 {
       font-size: 0.8em;
       margin-bottom: 0 !important;
 
+      @media print {
+        font-size: 7pt;
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        border-top: 2px solid #eee;
+
+        * {
+          margin: 0;
+        }
+      }
+
       h1 {
         font-size: 1em !important;
+
+        @media print {
+          margin: 0;
+          font-size: 7pt;
+        }
       }
     }
 
@@ -187,6 +204,10 @@ h2 {
       margin-bottom: 0;
     }
 
+    &:first-child {
+      z-index: 1;
+    }
+
     &:first-child:after {
       content: "";
       position: absolute;
@@ -199,6 +220,8 @@ h2 {
       box-sizing: border-box;
       animation: pulse 1s infinite;
       pointer-events: none;
+      z-index: 9999999;
+      display: block;
     }
 
     &:before {
@@ -209,6 +232,7 @@ h2 {
       width: 20px;
       height: 100%;
       background-color: #eee;
+      z-index: 1;
     }
 
     &:first-child:before {

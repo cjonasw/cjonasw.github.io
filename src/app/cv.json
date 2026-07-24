@@ -1,6 +1,6 @@
 {
   "name": "Charlie Walter",
-  "summary": "I have 15 years’ professional experience in front-end software engineering and UI/UX design. I thrive on the design and craft of building great software, creating intuitive, beautiful interfaces that work seamlessly for users. I am hardworking, highly adaptable, and love working at the intersection of modern web technologies, user experience, and clean code. I thoughtfully integrate AI tooling into my day-to-day workflow to boost efficiency, backed by strong engineering discipline and UI design intuition. Having led engineering teams in the past, I am seeking my next hands-on role as a Senior Front-End / UI-UX Developer where I can focus on crafting exceptional user experiences and maintainable software.",
+  "summary": "I have 15 years’ professional experience in front-end software engineering and UI/UX design. I thrive on the design and craft of building great software, creating intuitive, accessible, and beautiful interfaces that work seamlessly for all users. I am hardworking, highly adaptable, and love working at the intersection of modern web technologies, inclusive user experience, and clean code. I thoughtfully integrate AI tooling into my day-to-day workflow to boost efficiency, backed by strong engineering discipline and UI design intuition. Having led engineering teams in the past, I am seeking my next hands-on role as a Senior Front-End / UI-UX Developer where I can focus on crafting exceptional user experiences and maintainable software.",
   "contacts": {
     "phone": "07737334760",
     "email": "charliejwalter@gmail.com",
@@ -9,7 +9,22 @@
   },
   "career": [
     {
-      "title": "Senior Angular Developer (UI/UX)",
+      "title": "Senior UX Specialist & Angular Developer",
+      "company": {
+        "name": "Blackdot Solutions",
+        "link": "https://blackdotsolutions.com/",
+        "summary": "Blackdot is the UK technology company behind Videris, the most powerful investigations software for fighting serious, organised and economic crimes.",
+        "location": "Remote",
+        "remote": true
+      },
+      "period": {
+        "start": "2025-07-01",
+        "end": "2026-04-21"
+      },
+      "description": "Led UI/UX design initiatives for key Videris workflows, focusing heavily on user research, interface prototyping, and design consistency. Conducted comprehensive accessibility and colour contrast audits using Figma and Lighthouse against WCAG 2.1 standards to build inclusive, user-friendly interfaces."
+    },
+    {
+      "title": "Senior Angular Developer",
       "company": {
         "name": "Blackdot Solutions",
         "link": "https://blackdotsolutions.com/",
@@ -19,9 +34,9 @@
       },
       "period": {
         "start": "2024-07-15",
-        "end": "NOW"
+        "end": "2025-07-01"
       },
-      "description": "At Blackdot Solutions, I focus on developing new features and actively participate in UX discussions, always prioritizing a user-friendly interface. I write unit tests and expand E2E test coverage to ensure feature reliability and maintain code quality."
+      "description": "Developed complex, data-intensive Angular components and features for the Videris platform. Collaborated closely with product teams, wrote unit tests, and expanded E2E test coverage to ensure feature reliability and maintain code quality."
     },
     {
       "title": "UI/UX Developer",
@@ -36,7 +51,7 @@
         "start": "2023-07-16",
         "end": "2024-05-01"
       },
-      "description": "At Jaid, my work played a crucial role in enhancing the Jaid product, making it more robust and user-friendly. It was an exciting journey, shaping the way our product interacted with users. I took pride in designing and implementing the foundation for new features, laying the groundwork for scalability and maintainability."
+      "description": "At Jaid, my work played a crucial role in enhancing the product, making it more robust, accessible, and user-friendly. It was an exciting journey shaping user interactions, where I designed a low-code solution for our clients and established the foundation for new features while maintaining high standards for accessibility, long-term scalability, and inclusive design."
     },
     {
       "title": "Senior Front End Developer (UI)",
