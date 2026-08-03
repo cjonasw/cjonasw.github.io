@@ -36,6 +36,7 @@
         "start": "2025-07-01",
         "end": "2026-04-21"
       },
+      "redundancy": true,
       "description": "Led UI/UX design initiatives for key Videris workflows, focusing heavily on user research, interface prototyping, and design consistency. Conducted comprehensive accessibility and colour contrast audits using Figma and Lighthouse against WCAG 2.1 standards to build inclusive, user-friendly interfaces."
     },
     {
@@ -66,6 +67,7 @@
         "start": "2023-07-16",
         "end": "2024-05-01"
       },
+      "redundancy": true,
       "description": "At Jaid, my work played a crucial role in enhancing the product, making it more robust, accessible, and user-friendly. It was an exciting journey shaping user interactions, where I designed a low-code solution for our clients and established the foundation for new features while maintaining high standards for accessibility, long-term scalability, and inclusive design."
     },
     {
@@ -81,6 +83,7 @@
         "start": "2022-04-01",
         "end": "2023-06-01"
       },
+      "redundancy": true,
       "description": "During my tenure at Gamebench, I designed and developed multiple major iterations of the Dashboard. This web-based tool enables users to monitor and analyse the performance of their games. I enhanced the app’s accessibility with various improvements, including the introduction of a dark mode."
     },
     {
