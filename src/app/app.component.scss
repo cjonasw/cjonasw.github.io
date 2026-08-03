@@ -117,8 +117,9 @@ h2 {
 
   &__role {
     counter-increment: line-number;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 10px 10px 26px 40px;
+    font-size: 0.8em;
     position: relative;
     background: rgba(0, 0, 0, 0.025);
     animation: slideIn 0.4s ease-out forwards;
@@ -129,6 +130,11 @@ h2 {
 
     &--same-company-as-next {
       margin-bottom: 0;
+    }
+
+    &--first {
+      font-size: 1em;
+      margin-bottom: 40px;
     }
 
     &--compact {

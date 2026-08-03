@@ -1,13 +1,28 @@
 {
   "name": "Charlie Walter",
-  "summary": "I have 15 years’ professional experience in front-end software engineering and UI/UX design. I thrive on the design and craft of building great software, creating intuitive, accessible, and beautiful interfaces that work seamlessly for all users. I am hardworking, highly adaptable, and love working at the intersection of modern web technologies, inclusive user experience, and clean code. I thoughtfully integrate AI tooling into my day-to-day workflow to boost efficiency, backed by strong engineering discipline and UI design intuition. Having led engineering teams in the past, I am seeking my next hands-on role as a Senior Front-End / UI-UX Developer where I can focus on crafting exceptional user experiences and maintainable software.",
+  "summary": "I have 15 years’ professional experience in front-end software engineering, graphic and UI/UX design. I thrive on the design and craft of building great software, creating intuitive, accessible, and beautiful interfaces that work seamlessly for all users. I am hardworking, highly adaptable, and love working at the intersection of modern web technologies, inclusive user experience, and clean code. I thoughtfully integrate AI tooling into my day-to-day workflow to boost efficiency, backed by strong engineering discipline and UI design intuition. Having led engineering teams in the past, I am seeking my next hands-on role as a Senior Front-End / UI-UX Developer where I can focus on crafting exceptional user experiences and maintainable software.",
   "contacts": {
     "phone": "07737334760",
     "email": "charliejwalter@gmail.com",
     "website": "cjonasw.github.io",
-    "location": "Guildford, UK"
+    "location": "Headley, Hampshire, UK"
   },
   "career": [
+    {
+      "title": "Creative Designer & Front-End Developer",
+      "company": {
+        "name": "Moogli Creative",
+        "link": "https://mooglicreative.com/",
+        "summary": "A creative studio delivering end-to-end digital experiences, visual design, and multimedia content for enterprise and commercial clients.",
+        "location": "Remote",
+        "remote": true
+      },
+      "period": {
+        "start": "2026-04-01",
+        "end": null
+      },
+      "description": "Drive end-to-end digital product design and front-end development across major client engagements. Deliver custom websites, user interface design, and physical packaging, while leading creative content creation including video production and social media assets."
+    },
     {
       "title": "Senior UX Specialist & Angular Developer",
       "company": {
@@ -230,10 +245,11 @@
     "Sketch",
     "Adobe Illustrator",
     "Adobe Photoshop",
-    "VS Code",
-    "GitHub Copilot",
-    "Claude",
-    "ChatGPT"
+    "Adobe Premier Pro",
+    "Canva",
+    "ProCreate (iPad)",
+    "Affinity Designer 2 (iPad)",
+    "VS Code"
   ],
   "interests": ["Music", "Swimming"]
 }

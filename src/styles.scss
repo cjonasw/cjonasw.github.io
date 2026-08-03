@@ -103,3 +103,9 @@ button {
 pre {
   white-space: pre-wrap;
 }
+
+@media print {
+  .articles {
+    display: none;
+  }
+}

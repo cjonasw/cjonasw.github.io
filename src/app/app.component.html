@@ -25,7 +25,8 @@
             i,
             cv.career
           ),
-          'experience__role--compact': role.compact
+          'experience__role--compact': role.compact,
+          'experience__role--first': i == 0
         }"
       >
         <h1>{{ role.title }}</h1>
@@ -73,7 +74,7 @@
           <li *ngFor="let item of cv[listName]">{{ item }}</li>
         </ul>
       </section>
-      <section>
+      <section class="articles">
         <h2>Articles</h2>
         <article *ngFor="let article of cv.articles" class="article">
           <h1>
